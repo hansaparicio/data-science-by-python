@@ -1,0 +1,152 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>Introduction to Data Science and Big Data with Python</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="data-science-by-python-hansaparicio"
+                  title="Introduction to Data Science and Big Data with Python"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Data Science and Big Data" duration="1">
+        <h2 is-upgraded>What is Data Science?</h2>
+<p>Data Science is to extract useful knowledge from our data</p>
+<h2 is-upgraded>Some examples of systems that use or was made with Data Science</h2>
+<ul>
+<li><em>Recomendations systems</em>: Spotify, Facebook, Netflix, Amazon, Mercado Libre, Google</li>
+<li><em>Speech recognition systems</em>: Siri, Cortana, Google Now, Amazon Echo, ALexa</li>
+<li><em>Email clasification</em>: Gmail, Hotmail, Yahoo!</li>
+<li><em>Weather prediction</em>: Waze, Uber, Cabify, Google Maps</li>
+<li><em>Fraud detection</em>: PayPal, Mercado Libre, bancos</li>
+<li><em>Online advertising</em>: Google Ads, Facebook</li>
+<li><em>Chatbots</em></li>
+<li><em>Early disease detection</em></li>
+<li><em>Large-scale opinion analysis</em></li>
+</ul>
+<h2 is-upgraded>What do the Data Specialist do?</h2>
+<ul>
+<li><em>Data Scientist</em>: Collect, clean and sort the data to use in various algorithms.</li>
+<li><em>Data Engineer</em>: Person that have the responsability to make the infrastructure to obtain and view the data.</li>
+<li><em>Data Architect</em>: The person how makes and mantains the infrastructure to save the data</li>
+</ul>
+<h2 is-upgraded>What is the programming?</h2>
+<p>Its a discipline ... to solve problems?</p>
+<ul>
+<li>Input</li>
+<li>Output</li>
+<li>Math operations</li>
+<li>Conditional execution</li>
+<li>Bucles</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Values, Variable, Operators and Expresions" duration="1">
+        <h2 is-upgraded>Values</h2>
+<pre><code>print(&#34;Hello world&#34;)
+print(type(&#34;Hello world&#34;))
+</code></pre>
+<h2 is-upgraded>Variable</h2>
+<p>Is a container where we can save data, the gold rule the sign <code>=</code> in programing languages is assignment action.</p>
+<pre><code>any_var = input(&#34;please write any number value: &#34;)
+any_var = 5 + any_var
+print(any_var)
+</code></pre>
+<p>We can assign many types of data inside a variable; the primitive types are:</p>
+<ul>
+<li>int</li>
+<li>string</li>
+<li>boolean</li>
+<li>float</li>
+<li>list<h2 is-upgraded>Operators and Expresions</h2>
+</li>
+<li>Aritmetic:<pre><code>print(2 + 5)
+print(5 - 3)
+print(3 * 3)
+print(10 / 4)
+print(10 // 4)
+print(10 % 4)
+print(2**8) 
+</code></pre>
+</li>
+<li>Logic:<pre><code>true AND true = true
+true OR false = true
+NOT true = false
+</code></pre>
+</li>
+<li>Comparatives:<pre><code>print(5 == 6)
+print(5 != 6)
+print(5 &lt; 6)
+print(5 &gt; 6)
+print(5 &lt;= 6)
+print(5 &gt;= 6)
+</code></pre>
+</li>
+</ul>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Control structures and Loops" duration="1">
+        <h2 is-upgraded>If and Else statement</h2>
+<pre><code>if `&lt;condition&gt;`:
+    ...
+else
+    ...
+</code></pre>
+<h2 is-upgraded>List</h2>
+<p>A list is a group of data inside a sorted collection, the declaration form uses <code>[]</code> sign to set data separated by <code>,</code> look the follow example:</p>
+<pre><code>students = [&#34;Diomar&#34;, &#34;Maria&#34;, &#34;Giovanna&#34;, &#34;Amy&#34;]
+</code></pre>
+<p>We can access a specific data through use the index e.g:</p>
+<pre><code>print(students[0])
+
+Diomar
+</code></pre>
+<p>We can access to a range or sub collection of this data through use <code>:</code> sign e.g:</p>
+<pre><code>print(students[0:2])
+
+[&#34;Diomar&#34;, &#34;Maria&#34;, &#34;Giovanna&#34;]
+</code></pre>
+<h2 is-upgraded>For loop</h2>
+<pre><code>for student in students:
+    print(&#34;Hola mundo&#34; )
+
+Diomar
+Maria
+Giovanna
+Amy
+</code></pre>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+
+</body>
+</html>

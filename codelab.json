@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2020-01-18T07:56:00-03:00",
+  "id": "data-science-by-python-hansaparicio",
+  "duration": 3,
+  "title": "Introduction to Data Science and Big Data with Python",
+  "summary": "Introduction to Data Science and Big Data with Python",
+  "source": "python.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "codelab",
+    "markdown"
+  ],
+  "tags": [
+    "web"
+  ],
+  "url": "data-science-by-python-hansaparicio"
+}
